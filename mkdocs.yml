@@ -1,0 +1,20 @@
+site_name: Nebula Network Wiki
+theme:
+  name: readthedocs
+  highlightjs: true
+  features:
+    - navigation.top
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition
+extra_css:
+  - stylesheets/extra.css
