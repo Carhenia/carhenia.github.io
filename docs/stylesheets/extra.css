@@ -15,3 +15,7 @@ body {
   color: #fff;
 }
 
+.rst-content code {
+  background: #434344;
+}
+

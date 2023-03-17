@@ -3,6 +3,8 @@ theme:
   name: readthedocs
   highlightjs: true
   features:
+    - navigation.sections
+    - navigation.path
     - navigation.top
 plugins:
   - search
