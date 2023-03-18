@@ -9,4 +9,4 @@ Home
 Welcome to Nebula Network Wiki
 ------------------------------
 
-To do
+![Logo](nebula_network_logo.png)
