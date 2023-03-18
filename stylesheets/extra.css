@@ -11,11 +11,14 @@
   background: #4b07b9;
 }
 
-body {
+body, th {
   color: #fff;
 }
 
-.rst-content code {
+.rst-content code, td, tr, tbody {
   background: #434344;
 }
 
+.rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td{
+  background: #434344;
+}

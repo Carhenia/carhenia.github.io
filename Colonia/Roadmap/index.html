@@ -48,11 +48,41 @@
               </ul>
               <p class="caption"><span class="caption-text">Colonia</span></p>
               <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Blacklist/">Blacklist</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../Commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../FAQ/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Grief%20Defender/">Grief Defender</a>
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Roadmap</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#better-main-menu">Better Main Menu</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#website">Website</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#colonia-v114">Colonia v1.14</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#to-do-list">To Do List</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#current-bugs">Current Bugs</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#server-may-randomly-freeze-and-not-start-back-up">Server may randomly freeze and not start back up.</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#random-client-crash-when-rendering-snow-chunks">Random client crash when rendering snow chunks</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#sleep-vote">Sleep Vote</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#certus-quartz-seed-dont-grow-inside-of-crystal-growth-accelerators">Certus Quartz Seed don't grow inside of crystal growth accelerators</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#client-crash-with-rubidium-v0210">Client crash with Rubidium v0.2.10</a>
+    </li>
+        </ul>
+    </li>
     </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Whitelisted%20Mods/">Whitelisted Mods</a>
                   </li>
               </ul>
       </div>
@@ -79,12 +109,106 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="road-map">Road Map</h1>
+                <h1 id="future-plans">Future Plans</h1>
+<h2 id="better-main-menu">Better Main Menu</h2>
+<p>It's not the best</p>
+<h2 id="website">Website</h2>
+<ul>
+<li>finish ‘News &amp; Announcements’ part</li>
+<li>Add link for donation shop and curseforge</li>
+</ul>
+<h2 id="colonia-v114">Colonia v1.14</h2>
+<p><strong>New Mods:</strong></p>
+<ul>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/illuminations-forge">Illuminations (Client-Side)</a>  </li>
+<li>Hexerei  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/ping">Ping</a>  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/voidtotem">Void Totem</a>  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/charm-of-undying">Charm of Undying</a>  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/betterend-forge-port">BetterEnd</a>  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/deadly-end-phantoms">Deadly End Phantoms</a>  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/waystones2waypoints">Waystones2Waypoints</a>  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep">Just Enough Professions (JEP)</a>  </li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/more-villagers">More Villagers</a>  </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Notes</th>
+<th>Core Mod</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Star Worm Equestrian</td>
+<td></td>
+<td>May conflict with third person mod</td>
+<td>Player Animation Lib</br> Geckolib</td>
+</tr>
+<tr>
+<td>The Abyss II</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><em>Update (to test in dev)</em></p>
+<ul>
+<li>MCA Reborn</li>
+<li>Architectury</li>
+</ul>
+<p><em>Remove</em></p>
+<ul>
+<li>RecipeBuffers?</li>
+</ul>
+<h2 id="to-do-list">To Do List</h2>
+<ul>
+<li>Fix blur mod blurring entire MCA interface</li>
+<li>Setup donation store</li>
+<li>Configure Client Tweaks</li>
+<li>Add Inventory Tweaks Renewed to server</li>
+</ul>
+<h2 id="current-bugs">Current Bugs</h2>
+<h3 id="server-may-randomly-freeze-and-not-start-back-up">Server may randomly freeze and not start back up.</h3>
+<p>Status: <span style="color:red">Investigating</span></p>
+<p>Please message a staff member if the server doesn't start up again within 10 minutes.</p>
+<h3 id="random-client-crash-when-rendering-snow-chunks">Random client crash when rendering snow chunks</h3>
+<p>Status: <span style="color:red">Investigating</span></p>
+<p>Please create a ticket and send the latest crash report txt file and your latest.log, not your crashy link.</p>
+<pre><code>Description: Unexpected error
+
+java.util.ConcurrentModificationException: null
+    at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1353) ~[?:1.8.0_51] {}
+    at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) ~[?:1.8.0_51] {}
+    at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:529) ~[?:1.8.0_51] {}
+    at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:516) ~[?:1.8.0_51] {}
+    at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51] {}
+    at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152) ~[?:1.8.0_51] {}
+    at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51] {}
+    at java.util.stream.ReferencePipeline.findAny(ReferencePipeline.java:469) ~[?:1.8.0_51] {}
+    at org.orecruncher.environs.handlers.CommonStateHandler.process(CommonStateHandler.java:114) ~[?:4.0.5.0] {re:classloading,pl:eventbus:A,pl:runtimedistcleaner:A}
+    at org.orecruncher.environs.handlers.Manager.onTick(Manager.java:124) ~[?:4.0.5.0] {re:classloading}
+    at org.orecruncher.environs.handlers.Manager.clientTick(Manager.java:141) ~[?:4.0.5.0] {re:classloading}
+</code></pre>
+<p>Environs is part of the sound system in Dynamic Surroundings. </p>
+<h3 id="sleep-vote">Sleep Vote</h3>
+<p>Status: <span style="color:red">Investigating</span></p>
+<p>Seems to only work if theres more than 4 people online. </p>
+<h3 id="certus-quartz-seed-dont-grow-inside-of-crystal-growth-accelerators">Certus Quartz Seed don't grow inside of crystal growth accelerators</h3>
+<p>Status: <span style="color:red">Workaround Required</span></p>
+<p>Use the Enrichment Chamber from Mekanism instead.</p>
+<h3 id="client-crash-with-rubidium-v0210">Client crash with Rubidium v0.2.10</h3>
+<p>Status: <span style="color:green">Fix Found</span></p>
+<p>Issue with mixin conflict, stick with version 0.2.9</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../Commands/" class="btn btn-neutral float-left" title="Commands"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Grief%20Defender/" class="btn btn-neutral float-left" title="Grief Defender"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Whitelisted%20Mods/" class="btn btn-neutral float-right" title="Whitelisted Mods">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -107,8 +231,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../Commands/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../Grief%20Defender/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
+    
+      <span><a href="../Whitelisted%20Mods/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

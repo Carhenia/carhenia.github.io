@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Whitelisted Mods - Nebula Network Wiki</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../assets/_mkdocstrings.css" rel="stylesheet" />
+        <link href="../../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Whitelisted Mods";
+        var mkdocs_page_input_path = "Colonia\\Whitelisted Mods.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Nebula Network Wiki
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Colonia</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Blacklist/">Blacklist</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Commands/">Commands</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../FAQ/">FAQ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Grief%20Defender/">Grief Defender</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Roadmap/">Roadmap</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Whitelisted Mods</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-install-client-side-mods">How to install Client-Side Mods</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#step-1">Step 1:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-2">Step 2:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-3">Step 3:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#step-4">Step 4:</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#whitelist">Whitelist</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mods">Mods</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#better-fps-render-distance">Better Fps - Render Distance</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#rubidium">Rubidium</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#oculus">Oculus</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#litematica-malilib">Litematica + malilib</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#enchanted-book-redesign">Enchanted Book Redesign</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#modern-world-creation">Modern World Creation</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#worldeditcui-forge-edition-3">WorldEditCUI Forge Edition 3</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#light-overlay">Light Overlay</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#cloth-config-api">Cloth Config API</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#resource-packs">Resource Packs</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#pink-gui">Pink GUI</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-applied-energistics-patch-32x">Sphax Applied Energistics Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-angel-ring-patch-32x">Sphax Angel Ring Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-cofh-core-patch-32x">Sphax COFH Core Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-cooking-for-blockheads-patch-32x">Sphax Cooking for Blockheads Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-ender-storage-patch-32x">Sphax Ender Storage Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-falling-leaves-patch-32x">Sphax Falling Leaves Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-iron-chests-patch-32x">Sphax Iron Chests Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-iron-furnaces-patch-32x">Sphax Iron Furnaces Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-just-enough-items-patch-32x">Sphax Just Enough Items Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-just-enough-resources-patch-32x">Sphax Just Enough Resources Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-cucumber-library-patch-32x">Sphax Cucumber Library Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-mystical-agriculture-patch-32x">Sphax Mystical Agriculture Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-mystical-agradditions-patch-32x">Sphax Mystical Agradditions Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-pams-harvestcraft-2-crops-patch-32x">Sphax Pams Harvestcraft 2 Crops Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-pams-harvestcraft-2-food-core-patch-32x">Sphax Pams Harvestcraft 2 Food Core Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-pams-harvestcraft-2-food-extended-patch-32x">Sphax Pams Harvestcraft 2 Food Extended Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-pams-harvestcraft-2-trees-patch-32x">Sphax Pams Harvestcraft 2 Trees Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-simply-jetpacks-patch-32x">Sphax Simply Jetpacks Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-storage-drawers-patch-32x">Sphax Storage Drawers Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-thermal-series-patch-32x">Sphax Thermal Series Patch 32x</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphax-waystones-patch-32x">Sphax Waystones Patch 32x</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Nebula Network Wiki</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Colonia &raquo;</li>
+      <li>Whitelisted Mods</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="whitelisted-mods">Whitelisted Mods</h1>
+<h2 id="how-to-install-client-side-mods">How to install Client-Side Mods</h2>
+<h3 id="step-1">Step 1:</h3>
+<p>Download the mod(s) using the links below. Make sure you install the correct version otherwise it will not work. Some also require a core mod, so make sure you download that as well.</p>
+<h3 id="step-2">Step 2:</h3>
+<p>Head over to your modpack directory. You can access it through your launcher.</p>
+<p><img alt="menu" src="../images/whitelistedmods/step4.jpg" /></p>
+<h3 id="step-3">Step 3:</h3>
+<p>Place the mods inside of the mods folder. </p>
+<h3 id="step-4">Step 4:</h3>
+<p>Restart your modpack</p>
+<h2 id="whitelist">Whitelist</h2>
+<p>The following mods &amp; texturepacks are whitelisted on the Colonia Server. This means you can log in if you have them in your client.</p>
+<p>The version of the mod must be the exact same as the one listed. </p>
+<p>Any mod in your client that is not whitelisted will not permit you to join the server</p>
+<p>You can request for a mod to be whitelisted using this <a href="https://dyno.gg/form/984d11ae">form</a></p>
+<h3 id="mods">Mods</h3>
+<h4 id="better-fps-render-distance"><a href="https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance/files">Better Fps - Render Distance</a></h4>
+<p>This mod is included with the lite version of the modpack. </p>
+<p>Better FPS Render Distance is a mod which adds a few performance improvements to increase fps.</p>
+<p>Version: <a href="https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance/files/3766033">betterfpsdist-1.2.jar</a></p>
+<h4 id="rubidium"><a href="https://www.curseforge.com/minecraft/mc-mods/rubidium">Rubidium</a></h4>
+<p>Rubidium is an Unofficial Fork of CaffeineMC's "Sodium", made to work with Forge Mod Loader. Will provide much substantial fps for clients.</p>
+<p>Version: <a href="https://www.curseforge.com/minecraft/mc-mods/rubidium/files/3929490">Rubidium mc1.16.5-0.2.9</a></p>
+<h4 id="oculus"><a href="https://www.curseforge.com/minecraft/mc-mods/oculus">Oculus</a></h4>
+<p>Requires Ribidium</p>
+<p>Unofficial Fork of "Iris", made to work with FML. An open-source shaders mod compatible with OptiFine shaderpacks.</p>
+<p>Version: <a href="https://www.curseforge.com/minecraft/mc-mods/oculus/files/3888538">Oculus mc1.16.5-1.2.5a</a></p>
+<h4 id="litematica-malilib"><a href="https://www.curseforge.com/minecraft/mc-mods/litematica">Litematica + malilib</a></h4>
+<p>This mod is originally a fabric mod, please follow the instructions in our FAQ on how to install it. </p>
+<p>An updated version of Schematica, allowing players to display a holograms, loaded from a schematic file, for easier rebuilding. You can also save your creations to schematic files and share them.</p>
+<p>Version: <a href="https://masa.dy.fi/tmp/minecraft/mods/misc_test_versions/unsupported_temporary_forge_1.16.5/litematica-forge-1.16.5-0.0.0-dev.20210917.jar">litematica-forge-1.16.5-0.0.0-dev.20210917.jar</a></p>
+<p><a href="https://masa.dy.fi/tmp/minecraft/mods/misc_test_versions/unsupported_temporary_forge_1.16.5/malilib-forge-1.16.5-0.10.0-dev.21%2Bbeta.1.jar">malilib-forge-1.16.5-0.10.0-dev.21+beta.1.jar</a></p>
+<h4 id="enchanted-book-redesign"><a href="https://www.curseforge.com/minecraft/mc-mods/enchanted-book-redesign">Enchanted Book Redesign</a></h4>
+<p>This mod aims to fix that issue by changing the ribbon/glint colors to match the types of items that the enchants can go on and changing the textures of the enchanted books to reflect the level of them</p>
+<p>Version: <a href="https://www.curseforge.com/minecraft/mc-mods/enchanted-book-redesign/files/3239927">enchantedbookredesign-3.3-1.16.4.jar</a></p>
+<h4 id="modern-world-creation"><a href="https://www.curseforge.com/minecraft/mc-mods/modernworldcreation">Modern World Creation</a></h4>
+<p>Modern World Creation is a client-side mod that adds a modern bedrock-like world creation menu to the game.</p>
+<p>Version: <a href="https://www.curseforge.com/minecraft/mc-mods/modernworldcreation/files/3319805">ModernWorldCreation v1.0.0 MC 1.16.2-1.16.5</a></p>
+<h4 id="worldeditcui-forge-edition-3"><a href="https://www.curseforge.com/minecraft/mc-mods/worldeditcui-forge-edition-3">WorldEditCUI Forge Edition 3</a></h4>
+<p>Allows you to see your selected region in-game in real-time. Works with GriefDefender Claims. </p>
+<p>Version: <a href="https://www.curseforge.com/minecraft/mc-mods/worldeditcui-forge-edition-3/files/3191632">WorldEdit-CUI-FE3-1.16.5-3.0.9.jar</a></p>
+<h4 id="light-overlay"><a href="https://www.curseforge.com/minecraft/mc-mods/light-overlay">Light Overlay</a></h4>
+<p>This mod provides users with a NEI-like light overlay. Requires Cloth-Config</p>
+<p>Version: <a href="https://www.curseforge.com/minecraft/mc-mods/light-overlay/files/3296489">Forge / Fabric 1.16.4/5 v5.8.1</a></p>
+<p>The one with the most downloads is the forge version</p>
+<h4 id="cloth-config-api"><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config">Cloth Config API</a></h4>
+<p>Core mod for Light Overlay</p>
+<p>Version:  <a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/3782784">Forge 1.16.4/5 v4.14.64</a></p>
+<h3 id="resource-packs">Resource Packs</h3>
+<h4 id="pink-gui"><a href="https://www.planetminecraft.com/texture-pack/pink-gui-5313377/">Pink GUI</a></h4>
+<p>Replaces GUI with a pink variant.</p>
+<p>PureBDcraft (Sphax) 32x &amp; 64x</p>
+<p>PureBDcraft completely transforms the Minecraft experience and makes it look like a comic.</p>
+<h4 id="sphax-applied-energistics-patch-32x"><a href="https://bdcraft.net/downloads/purebdcraft-minecraft/">Sphax Applied Energistics Patch 32x</a></h4>
+<p>Version: 8.2.0</p>
+<h4 id="sphax-angel-ring-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8197">Sphax Angel Ring Patch 32x</a></h4>
+<p>Version: Angel Ring</p>
+<h4 id="sphax-cofh-core-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=3018">Sphax COFH Core Patch 32x</a></h4>
+<h4 id="sphax-cooking-for-blockheads-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=5742">Sphax Cooking for Blockheads Patch 32x</a></h4>
+<h4 id="sphax-ender-storage-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=267">Sphax Ender Storage Patch 32x</a></h4>
+<h4 id="sphax-falling-leaves-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8389">Sphax Falling Leaves Patch 32x</a></h4>
+<p>Version: 1.1.1</p>
+<h4 id="sphax-iron-chests-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=357">Sphax Iron Chests Patch 32x</a></h4>
+<h4 id="sphax-iron-furnaces-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8719">Sphax Iron Furnaces Patch 32x</a></h4>
+<h4 id="sphax-just-enough-items-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=5122">Sphax Just Enough Items Patch 32x</a></h4>
+<h4 id="sphax-just-enough-resources-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8693">Sphax Just Enough Resources Patch 32x</a></h4>
+<h4 id="sphax-cucumber-library-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8705">Sphax Cucumber Library Patch 32x</a></h4>
+<h4 id="sphax-mystical-agriculture-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=6339">Sphax Mystical Agriculture Patch 32x</a></h4>
+<h4 id="sphax-mystical-agradditions-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8742">Sphax Mystical Agradditions Patch 32x</a></h4>
+<h4 id="sphax-pams-harvestcraft-2-crops-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8676">Sphax Pams Harvestcraft 2 Crops Patch 32x</a></h4>
+<h4 id="sphax-pams-harvestcraft-2-food-core-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8675">Sphax Pams Harvestcraft 2 Food Core Patch 32x</a></h4>
+<h4 id="sphax-pams-harvestcraft-2-food-extended-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8678">Sphax Pams Harvestcraft 2 Food Extended Patch 32x</a></h4>
+<h4 id="sphax-pams-harvestcraft-2-trees-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8677">Sphax Pams Harvestcraft 2 Trees Patch 32x</a></h4>
+<h4 id="sphax-simply-jetpacks-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=2279">Sphax Simply Jetpacks Patch 32x</a></h4>
+<h4 id="sphax-storage-drawers-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=3439">Sphax Storage Drawers Patch 32x</a></h4>
+<h4 id="sphax-thermal-series-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=8399">Sphax Thermal Series Patch 32x</a></h4>
+<p>Version: Thermal Foundation, Cultivation, Expansion, Innovation, Locomotion</p>
+<h4 id="sphax-waystones-patch-32x"><a href="https://bdcraft.net/community/viewtopic.php?t=6469">Sphax Waystones Patch 32x</a></h4>
+<p>Version: Llama Farmer</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Roadmap/" class="btn btn-neutral float-left" title="Roadmap"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Roadmap/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
