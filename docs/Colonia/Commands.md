@@ -18,35 +18,35 @@ This page outlines the commands default players have access to
 ### Minecraft
 
 
-/help
+<span style="color:green">/help</span>
 
 Shows a list of server or plugin commands 
 
 ### GriefDefender
 
-/gd help 
+<span style="color:green"><span style="color:green">/gd help</span>
 
 Shows a list of server or plugin commands 
 
 ### Claims
 
-/gd abandon claim
+<span style="color:green">/gd abandon claim</span>
 
 Arguments: ```[identifier]``` Abandons a claim
 
-/gd abandon all
+<span style="color:green">/gd abandon all</span>
 
 Abandons ALL your claims
 
-/gd abandon top
+<span style="color:green">/gd abandon top</span>
 
 Abandons a claim and all its subdivisions
 
-/gd buy claim
+<span style="color:green">/gd buy claim</span>
 
 View a list of claims for sale. Click ```[Buy]``` to purchase.
 
-/gd claim contract
+<span style="color:green">/gd claim contract</span>
 
 Aliases: claimcontract, contractclaim
 
@@ -54,7 +54,7 @@ Arguments: ```<amount> [direction] [identifier]```
 
 Contracts/Shrinks the claim from the direction you are facing.
 
-/gd claim create
+<span style="color:green">/gd claim create</span>
 
 Aliases: claimcreate
 
@@ -62,7 +62,7 @@ Arguments: ```<radius> [type]```
 
 Creates a claim around the player of the given type. If no claimtype (or an incorrect one) is specified, a basic claim will be created.
 
-/gd claim expand
+<span style="color:green">/gd claim expand</span>
 
 Aliases: claimexpand, expandclaim
 
@@ -70,29 +70,29 @@ Arguments: ```<amount> [direction] [identifier]```
 
 Expands the claim in the direction you are facing.
 
-/gd claim farewell
+<span style="color:green">/gd claim farewell</span>
 
 Arguments: ```<message> [identifier]```
 
 Sets the farewell message of your claim
 
-To unset, /gd claim farewell clear
+To unset, <span style="color:green">/gd claim farewell clear</span>
 
-/gd claim greeting
+<span style="color:green">/gd claim greeting</span>
 
 Arguments: ```<message> [identifier]```
 
 Sets the greeting message of your claim
 
-To unset, /gd claim greeting clear
+To unset, <span style="color:green">/gd claim greeting clear</span>
 
-/gd claim id
+<span style="color:green">/gd claim id</span>
 
 Arguments: ```<identifier>```
 
 Sets the friendly identifier of your claim.
 
-/gd claim info
+<span style="color:green">/gd claim info</span>
 
 Aliases: claiminfo
 
@@ -100,13 +100,13 @@ Arguments: ```[identifier]```
 
 Gets information about a claim you are standing in or by claim id.
 
-/gd claim inherit
+<span style="color:green">/gd claim inherit</span>
 
 Aliases: inherit
 
 Toggles parent claim inherit mode
 
-/gd claim inspect
+<span style="color:green">/gd claim inspect</span>
 
 Aliases: claiminspect
 
@@ -114,7 +114,7 @@ Arguments: ```[area|hide|hideall]```
 
 Inspects the target block player is looking at or nearby claims.
 
-/gd claim list
+<span style="color:green">/gd claim list</span>
 
 Aliases: claimlist
 
@@ -122,13 +122,13 @@ Arguments: ```[<player> [world]]```
 
 List information about a player's claims.
 
-/gd claim displayname
+<span style="color:green">/gd claim displayname</span>
 
 Arguments: ```<name>```
 
 Sets the display name of your claim
 
-/gd claim rent
+<span style="color:green">/gd claim rent</span>
 
 Arguments: ```create [<rate> [<max_days>]]|info|list|cancel]```
 
@@ -136,19 +136,19 @@ Used to rent/list claims.
 
 Note: Requires economy plugin.
 
-/gd claim setspawn
+<span style="color:green">/gd claim setspawn</span>
 
 Aliases: claimsetspawn
 
 Sets the spawn of your claim to the location you are standing in.
 
-/gd claim spawn
+<span style="color:green">/gd claim spawn</span>
 
 Aliases: claimspawn
 
 Teleports you to claim spawn, if available.
 
-/gd claim tax
+<span style="color:green">/gd claim tax</span>
 
 Arguments: ```balance|force|pay <amount>]```
 
@@ -158,7 +158,7 @@ Note: The argument force allows an admin to pay a claim's tax balance for anothe
 
 Note: Requires economy plugin.
 
-/gd claim transfer
+<span style="color:green">/gd claim transfer</span>
 
 Aliases: transferclaim
 
@@ -166,37 +166,37 @@ Arguments: ```<player> [identifier]```
 
 Transfer the claim you're standing in to a player.
 
-/gd claimgroup player
+<span style="color:green">/gd claimgroup player</span>
 
 Arguments: ```join <group> [<identifier>]|unjoin [<identifier>]|create <group>|delete <group>```
 
 Used to manage player claim groups.
 
-/gd cuboid
+<span style="color:green">/gd cuboid</span>
 
 Aliases: cuboid
 
 Toggles 3D cuboid claims mode.
 
-/gd mode basic
+<span style="color:green">/gd mode basic</span>
 
 Aliases: modebasic
 
 Switches the shovel tool back to basic claims mode.
 
-/gd mode subdivide
+<span style="color:green">/gd mode subdivide</span>
 
 Aliases: modesubdivide
 
 Switches the shovel tool to subdivision mode, used to subdivide your claims
 
-/gd mode town
+<span style="color:green">/gd mode town</span>
 
 Aliases: modetown
 
 Switches the shovel tool back to town claims mode.
 
-/gd player transferblocks
+<span style="color:green">/gd player transferblocks</span>
 
 Aliases: transferblocks
 
@@ -204,19 +204,19 @@ Arguments: ```<player> <amount>```
 
 Gives claim blocks to another player
 
-/gd player trapped
+<span style="color:green">/gd player trapped</span>
 
 Aliases: trapped
 
 Teleports the player to a safe location if stuck and unable to build.
 
-/gd player unlockdrops
+<span style="color:green">/gd player unlockdrops</span>
 
 Aliases: unlockdrops
 
 Allows other players to pickup any items dropped from death.
 
-/gd sell claim
+<span style="color:green">/gd sell claim</span>
 
 Arguments: ```<price>```
 
@@ -224,13 +224,13 @@ Puts your claim up for sale at the set price. To disable sale, set the price to 
 
 Flag
 
-/gd flag debug
+<span style="color:green">/gd flag debug</span>
 
 Aliases: cfd
 
 Toggles claim flag debug mode
 
-/gd flag claim
+<span style="color:green">/gd flag claim</span>
 
 Aliases: cf
 
@@ -238,7 +238,7 @@ Arguments: ```[<flag> <target> <value> [<contexts>]]```
 
 Gets/Sets claim flags in the claim you are standing in.
 
-/gd flag definition
+<span style="color:green">/gd flag definition</span>
 
 Aliases: cf
 
@@ -246,7 +246,7 @@ Arguments: ```<preset:group> <definition> <value> [identifier]```
 
 Sets claim flag definitions in the claim you are standing in or claim identifier.
 
-/gd flag group
+<span style="color:green">/gd flag group</span>
 
 Aliases: cfg
 
@@ -254,7 +254,7 @@ Arguments: ```<group> <flag> <target> <value> [<contexts>]]```
 
 Gets/Sets flag permission for a group in claim you are standing in.
 
-/gd flag player
+<span style="color:green">/gd flag player</span>
 
 Aliases: cfp
 
@@ -262,7 +262,7 @@ Arguments: ```<player> <flag> <target> <value> [<contexts>]]```
 
 Adds flag permission to player.
 
-/gd flag reset
+<span style="color:green">/gd flag reset</span>
 
 Aliases: cfr
 
@@ -270,7 +270,7 @@ Resets a claim to flag defaults.
 
 Options
 
-/gd option claim
+<span style="color:green">/gd option claim</span>
 
 Aliases: co
 
@@ -278,7 +278,7 @@ Arguments: ```[<option> <value> [<contexts>]]```
 
 Gets/Sets options in the claim you are standing in.
 
-/gd option group
+<span style="color:green">/gd option group</span>
 
 Aliases: cog
 
@@ -286,7 +286,7 @@ Arguments: ```<group> [<option> <value> [<contexts>]]```
 
 Gets/Sets options for a group in claim you are standing in.
 
-/gd option player
+<span style="color:green">/gd option player</span>
 
 Aliases: cop
 
@@ -296,7 +296,7 @@ Gets/Sets options for a player in claim you are standing in.
 
 Trust
 
-/gd trust player
+<span style="color:green">/gd trust player</span>
 
 Accessor: Grants a player entry to your claim(s) and use of your bed
 
@@ -312,7 +312,7 @@ Arguments: ```<player>|public <trusttype>```
 
 Grants a player access to your claim(s).
 
-/gd trust group
+<span style="color:green">/gd trust group</span>
 
 Accessor: Grants a group entry to your claim(s) and use of your bed
 
@@ -328,7 +328,7 @@ Arguments: ```<group>|public <trusttype>```
 
 Grants a group access to your claim(s)
 
-/gd trustall player
+<span style="color:green">/gd trustall player</span>
 
 Accessor: Grants a player entry to ALL your claim(s) and use of your bed
 
@@ -342,7 +342,7 @@ Arguments: ```<player>|public <trusttype>```
 
 Grants a player access to ALL your claim(s).
 
-/gd trustall group
+<span style="color:green">/gd trustall group</span>
 
 Accessor: Grants a group entry to ALL your claim(s) and use of your bed
 
@@ -356,7 +356,7 @@ Arguments: ```<group>|public <trusttype>```
 
 Grants a group access to ALL your claim(s).
 
-/gd untrust player
+<span style="color:green">/gd untrust player</span>
 
 Aliases: untrust
 
@@ -364,7 +364,7 @@ Arguments: ```<player>|public```
 
 Revokes a player's access to your claim.
 
-/gd untrust group
+<span style="color:green">/gd untrust group</span>
 
 Aliases: untrustgroup
 
@@ -372,7 +372,7 @@ Arguments: ```group>|public```
 
 Revokes a group's access to your claim.
 
-/gd untrustall player
+<span style="color:green">/gd untrustall player</span>
 
 Aliases: untrustall
 
@@ -388,208 +388,208 @@ Arguments: ```<group>|public```
 
 Revokes a group's access to ALL your claim(s).
 
-/gd trust list
+<span style="color:green">/gd trust list</span>
 
 Lists permissions for the claim you're standing in
 
 ### Essentials
 
-/spawn
+<span style="color:green">/spawn</span>
 
 Teleport to the spawnpoint.
 
-/playtime
+<span style="color:green">/playtime</span>
 
 Shows your total playtime
 
-/warpinfo ```<warp>```
+<span style="color:green">/warpinfo ```<warp>```</span>
 
  Finds location information for a specified warp.
 
-/warp
+<span style="color:green">/warp</span>
 
  List all warps or warp to the specified location.
 
-/tpa
+<span style="color:green">/tpa</span>
 
 Request to teleport to the specified player.
 
-/exp
+<span style="color:green">/exp</span>
 
 View your xp level
 
-/tpdeny
+<span style="color:green">/tpdeny</span>
 
 Rejects teleport requests.
 
-/tpacancel
+<span style="color:green">/tpacancel</span>
 
 Cancel all outstanding teleport requests. Specify ```[player]``` to cancel requests with them.
 
-/tpaccept
+<span style="color:green">/tpaccept</span>
 
 Accepts teleport requests.
 
-/tpahere
+<span style="color:green">/tpahere</span>
 
 Request that the specified player teleport to you.
 
-/delhome
+<span style="color:green">/delhome</span>
 
 Deletes a home
 
-/sethome
+<span style="color:green">/sethome</span>
 
 Set home to your current location.
 
-/home
+<span style="color:green">/home</span>
 
 Teleport to your home.
 
-/rules
+<span style="color:green">/rules</span>
 
 Views the server rules.
 
-/realname
+<span style="color:green">/realname</span>
 
 Displays the username of a user based on nick.
 
-/rtoggle
+<span style="color:green">/rtoggle</span>
 
 Change whether the recipient of the reply is last recipient or last sender.
 
-/r
+<span style="color:green">/r</span>
 
 Quickly reply to the last player to message you.
 
-/ping
+<span style="color:green">/ping</span>
 
-/paytoggle
+<span style="color:green">/paytoggle</span>
 
 Toggles whether you are accepting payments.
 
-/payconfirmtoggle
+<span style="color:green">/payconfirmtoggle</span>
 
 Toggles whether you are prompted to confirm payments.
 
-/pay
+<span style="color:green">/pay</span>
 
 Pays another player from your balance.
 
-/near
+<span style="color:green">/near</span>
 
 Lists the players near by or around a player.
 
-/msgtoggle
+<span style="color:green">/msgtoggle</span>
 
 Blocks receiving all private messages.
 
-/msg
+<span style="color:green">/msg</span>
 
 Sends a private message to the specified player.
 
-/motd
+<span style="color:green">/motd</span>
 
 Views the Message Of The Day.
 
-/mail
+<span style="color:green">/mail</span>
 
 Manages inter-player, intra-server mail.
 
-/list
+<span style="color:green">/list</span>
 
 List all online players.
 
-/info
+<span style="color:green">/info</span>
 
 Shows information set by the server owner.
 
-/ignore
+<span style="color:green">/ignore</span>
 
 Ignore or unignore other players.
 
-/helpop
+<span style="color:green">/helpop</span>
 
 Message online staff members.
 
-/getpos
+<span style="color:green">/getpos</span>
 
 Get your current coordinates or those of a player.
 
-/depth
+<span style="color:green">/depth</span>
 
 States current depth
 
-/balance
+<span style="color:green">/balance</span>
 
 Pays another player from your balance.
 
-/balancetop
+<span style="color:green">/balancetop</span>
 
 Lists players by top balances.
 
-/afk
+<span style="color:green">/afk</span>
 
 Marks you as away-from-keyboard.
 
 DiscordSRV
 
-/discord help, /discord ?
+<span style="color:green">/discord help, /discord ?</span>
 
 Shows a list of all the options you have permissions for
 
-/discord link
+<span style="color:green">/discord link</span>
 
 Sends you instructions to link your Minecraft account with your Discord account.
 
-/discord linked
+<span style="color:green">/discord linked</span>
 
 Shows if your Minecraft account is linked with a discord account.
 
-/discord unlink, /discord clearlinked
+<span style="color:green">/discord unlink, /discord clearlinked</span>
 
 Unlink your Discord account from your Minecraft account.
 
 QuickShop
 
-/qs find ```<item>```
+<span style="color:green">/qs find ```<item>```</span>
 
 Find a specific item in a nearby shop.
 
-/qs staff
+<span style="color:green">/qs staff</span>
 
 BetterSleeping
 
-/bs buffs
+<span style="color:green">/bs buffs</span>
 
 See the list of (de)buffs you can get
 
-/bs shout
+<span style="color:green">/bs shout</span>
 
 Anonymously ask players in your world to sleep
 
-/bs status
+<span style="color:green">/bs status</span>
 
 View the current status of your world.
 
 Misc
 
-/report ```<target> reason>```
+<span style="color:green">/report ```<target> reason>```</span>
 
 Report a target to the staff team for investigation. 
 
-/tl toggle
+<span style="color:green">/tl toggle</span>
 
 Toggle on/off the animated tablist
 
-/warnings
+<span style="color:green">/warnings</span>
 
 View own warnings
 
-/pwarp
+<span style="color:green">/pwarp</span>
 
 GUI Management for player warps
 
-/kit
+<span style="color:green">/kit</span>
 
 Displays all available kits. 
